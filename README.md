@@ -74,7 +74,7 @@ Options:
 $ ./lem_in -e < map
 ```
 
--k : Add color to ants to show the differents path they are taking
+-k : Add color to ants to show the differents path the ants are taking
 
 -p : Show all the differents path between start and end rooms.
 
