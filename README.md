@@ -5,7 +5,9 @@ Algorithm project where a certain amount of ants should find the best path throu
 
 To build:
 
-$ make  
+```bash
+$ make
+```
 
 To execute:
 
@@ -43,15 +45,15 @@ Output:
 
 The output will look like this
 
-L1-3 L2-2  
-L1-4 L2-5 L3-3 L4-2  
-L1-0 L2-6 L3-4 L4-5 L5-3 L6-2  
-L2-0 L3-0 L4-6 L5-4 L6-5 L7-3 L8-2  
-L4-0 L5-0 L6-6 L7-4 L8-5 L9-3 L10-2  
-L6-0 L7-0 L8-6 L9-4 L10-5 L11-3 L12-2  
-L8-0 L9-0 L10-6 L11-4 L12-5 L13-3 L14-2  
-L10-0 L11-0 L12-6 L13-4 L14-5 L15-3  
-L12-0 L13-0 L14-6 L15-4  
+L1-3 L2-2
+L1-4 L2-5 L3-3 L4-2
+L1-0 L2-6 L3-4 L4-5 L5-3 L6-2
+L2-0 L3-0 L4-6 L5-4 L6-5 L7-3 L8-2
+L4-0 L5-0 L6-6 L7-4 L8-5 L9-3 L10-2
+L6-0 L7-0 L8-6 L9-4 L10-5 L11-3 L12-2
+L8-0 L9-0 L10-6 L11-4 L12-5 L13-3 L14-2
+L10-0 L11-0 L12-6 L13-4 L14-5 L15-3
+L12-0 L13-0 L14-6 L15-4
 L14-0 L15-0
 
 L + number stand to say wich ant is moving, and the number N in L1-N tell wich room the ant had move into.
@@ -62,7 +64,7 @@ Options:
 
 -e : Add verbosity to explain the reasons of the errors, or why the input is invalid.
 
-$ ./lem_in -e < map 
+$ ./lem_in -e < map
 
 -k : Add color to ants to show the differents path they are taking
 
