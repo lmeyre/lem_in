@@ -1,6 +1,11 @@
 # lem_in
 Algorithm project where a certain amount of ants should find the best path through a labyrinth, but cannot take the same path at the same time. The algorithm should find all the best path, and split the ants in them.
 
+The goal is to make all the ants go from the starting rooms to the ending rooms in the less amount of "rounds".
+Each ant can move to an adjacent room during one round, one by one in gallery.
+
+In order to archieve this in the minimum amount of round, the ants should not be splitted fairly between each path, because some are faster than other. Also, the ants should not go all inside the faster path.
+
 **Usage**
 
 To build:
