@@ -87,5 +87,5 @@ $ ./lem_in -evk < map
 Note :
 
 If executed without any map, the programm will wait for input, you can write the map yourself after launching the programm with your input.
- 
+For more informations you can look to the subject.fdf
  
